@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        body {
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .page-1 {
+            background-image: url(javascript/img1.png);
+            background-size: cover;
+            height: 720px;
+            margin-top: 0%;
+            padding: 0;
+        }
+
+        .sign-in {
+            color: red;
+        }
+
+        .sign-in {
+            padding-left: 100px;
+            display: flex;
+            align-items: center;
+            size-adjust: 50px;
+            position: relative;
+            align-content: right;
+        }
+
+        .butto {
+            padding-left: 1000px;
+            font-size: 22;
+
+
+
+
+        }
+
+        .butto button {
+            background-color: red;
+            color: white;
+            font-size: larger;
+            
+        
+
+        }
+
+        .line {
+            color: white;
+            text-align: center;
+            padding-top: 200px;
+            /* font-family: 'Courier New', Courier, monospace; */
+        }
+
+        .line input {
+
+            height: 50px;
+            width: 200px;
+            padding-right: 400px;
+            color: white;
+            background-color: black;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+        }
+
+        .line button {
+            background-color: red;
+            color: white;
+            height: 55px;
+
+
+        }
+
+        .page-2 {
+            background-color: rgb(32, 30, 30);
+            height: 450px;
+            border: 0.5em solid rgb(71, 71, 71);
+        }
+
+        .tex {
+            padding-top: 150px;
+            padding-left: 200px;
+        }
+
+        /* .tex h1{
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .te */
+
+        .page-3 {
+            /* background-image: url(img2.png); */
+            background-color: rgb(32, 30, 30);
+            
+            /* border: 0.5em solid rgb(71, 71, 71); */
+            border-left: 0.5em solid rgb(71, 71, 71) ;
+            border-right: 0.5em solid rgb(71, 71, 71) ;
+            border-bottom: 0.5em solid rgb(71, 71, 71) ;
+
+
+            background-size: cover;
+            height: 450px;
+            margin-top: 0%;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        
+            
+            
+        }
+
+        .img3 {
+
+            background-image: url(javascript/img4.png);
+            /* background-color: red; */
+            /* background-size: cover; */
+
+            height: 300px;
+            width: 300px;
+            margin-top: 100px;
+            margin-left: 200px;
+
+            padding-left: 50px;
+            margin-bottom: 200px;
+        }
+
+        .in3 {
+            
+            padding-top: 100px;
+            padding-right: 100px;
+        }
+
+        .page-4{
+            background-color: rgb(32, 30, 30);
+            
+            /* border: 0.5em solid rgb(71, 71, 71); */
+            border-left: 0.5em solid rgb(71, 71, 71) ;
+            border-right: 0.5em solid rgb(71, 71, 71) ;
+            border-bottom: 0.5em solid rgb(71, 71, 71) ;
+            background-size: cover;
+            height: 450px;
+            margin-top: 0%;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        
+
+        }
+        .in4{
+            padding-top: 100px;
+            padding-right: 500px;
+        }
+        .page-5{
+            background-color: rgb(32, 30, 30);
+            
+            /* border: 0.5em solid rgb(71, 71, 71); */
+            border-left: 0.5em solid rgb(71, 71, 71) ;
+            border-right: 0.5em solid rgb(71, 71, 71) ;
+            border-bottom: 0.5em solid rgb(71, 71, 71) ;
+            background-size: cover;
+            height: 800px;
+            margin-top: 0%;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        
+
+        }
+        .fre{
+            padding-left: 250px;
+            font-size: larger;
+            text-align: center ;
+        }
+        .page-5-1{
+
+            height: 450px;
+            width: 300px;
+            /* padding-top: 50px; */
+            padding-right: 900px;
+            
+    
+            
+            
+            
+            
+        }
+
+        #freq{
+            
+            background-color: rgb(49, 36, 36);
+            height:50px;
+            width: 1250px;
+            font-size: 0.5cm;
+            
+            
+
+        }
+        
+            
+
+#freq:hover{
+
+    /* border: 2px solid white; */
+    background-color: brown;
+
+}
+.page-5-last{
+    padding-bottom: 180px;
+}
+
+.page-5-last p{
+    font-size: larger;
+
+}
+.page-5-last input{
+    height: 40px;
+    width: 500px;
+    border: 1px solid white;
+    background-color: rgb(32, 30, 30);
+
+}
+.page-5-last button{
+   color: white;
+    height: 50px;
+    width: 150px;
+    border: 1px solid white;
+    background-color: red;
+    
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+
+.page-6{
+
+    background-color: rgb(32, 30, 30);
+            
+            /* border: 0.5em solid rgb(71, 71, 71); */
+            border-left: 0.5em solid rgb(71, 71, 71) ;
+            border-right: 0.5em solid rgb(71, 71, 71) ;
+            border-bottom: 0.5em solid rgb(71, 71, 71) ;
+            background-size: cover;
+            height: 400px;
+            margin-top: 0%;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        
+
+}
+
+.page-6-last{
+    
+    height:300px;
+    width: 1000px;
+    padding-right: 500px;
+    
+    padding-top: 80px;
+    
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+ul{
+    /* margin-top: 25px; */
+    padding-left: 120px;
+    /* width: 500px; */
+}
+ul a{
+    display: block;
+    font-size: 0,85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    width: 150px;
+}
+            
+        
+
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="page-1">
+        
+
+        <div class="sign-in">
+            <h1>NETFLIX</h1>
+            <div class="butto"> 
+                <button><a href="https://www.netflix.com/in/login" >SIGN IN </a></button>
+            </div>
+        </div>
+        <div class="line">
+            <h1>UNLIMITED MOVIES, TV shows and more</h1>
+            <h2><b>Watch anywhere , cancel anytime</b></h2>
+            <h2>Ready to Watch ? Enter your Email to Create or restart your membership.</h2>
+            <input type="email address" placeholder="EMAIL ADDRESS">
+            <button>GET STARTED ></button>
+
+
+        </div>
+    </div>
+
+    <div class="page-2">
+        <div class="tex">
+            <h1><b> ENJOY ON YOUR TV</b></h1>
+            <h2>Watch on youe Smart TV'S , PlayStation ,xbox,Chromecast</h2>
+            <h2>Apple Tv, Blue-Rays players and more</h2>
+        </div>
+
+    </div>
+
+    <div class="page-3">
+
+
+        <div class="img3">
+
+        </div>
+
+        <div class="in3">
+            <h1><b> ENJOY ON YOUR TV</b></h1>
+            <h2>Watch on youe Smart TV'S , PlayStation ,xbox,Chromecast</h2>
+            <h2>Apple Tv, Blue-Rays players and more</h2>
+
+
+        </div>
+        
+
+
+
+    </div>
+
+    <div class="page-4">
+        
+        <div class="in4">
+            <h1><b> ENJOY ON YOUR TV</b></h1>
+            <h2>Watch on youe Smart TV'S , PlayStation ,xbox,Chromecast</h2>
+            <h2>Apple Tv, Blue-Rays players and more</h2>
+            
+        </div>
+        
+        
+    </div>
+
+    <div class="page-5">
+    <div class="fre">
+        <h1>FREQUENTLY ASKED QUESTIONS </h1>
+    </div>
+
+    <div class="page-5-1">
+        
+        <div id="freq">
+            <pre><h2> What is Netflix?                                                            +</h2></pre>
+            
+        </div>
+        <div id="freq">
+            <pre><h2> How much does Netflix Cost?                                                 +</h2></pre>
+
+        </div>
+        <div id="freq">
+            <pre><h2> Where Can I Watch?                                                          +</h2></pre>
+        </div>
+        <div id="freq">
+            <pre><h2> How do I Cancel?                                                            +</h2></pre>
+        </div>
+        <div id="freq">
+            <pre><h2> What Can I Watch On Netflix?                                                +</h2></pre>
+        </div>
+        <div id="freq">
+            <pre><h2> Is Netflix good for Kids?                                                   +</h2></pre>
+        </div>
+
+
+        
+    </div>
+
+    <div class="page-5-last">
+        <p>Ready to Watch? Enter your Email to create or restart your membership.</p>
+        <input type="email address" placeholder="EMAIL ADDRESS">
+        <button>GET STARTED ></button>
+        
+    </div>
+
+
+    </div>
+
+    <div class="page-6">
+        <div class="page-6-last">
+            <ul>
+                 <a> <u>Questions? Call 000-800-919-1964</u></a>
+                <a> <u><a href="https://help.netflix.com/en/node/412" >FAQ</a></u></a>
+                <a> <u><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Investor Relation </a></u></a>
+                <a> <u><a href="https://help.netflix.com/legal/privacy">Privacy</a></u></a>
+                <a> <u><a href="Speed Test">Speed Test</a></u></a>
+
+                <p>Netflix India</p>
+                
+            </ul>
+            <ul>
+                 <a> <u><a href="https://help.netflix.com/en/">Help Center</a> </u></a>
+                <a> <u><a href="https://jobs.netflix.com/">Jobs</a> </u></a>
+                <a> <u><a href="https://jobs.netflix.com/">Cookie Preference</a></u></a>
+                <a> <u><a href="https://help.netflix.com/legal/notices">Legal Notice</a></u></a>
+                <!-- <a> <u>Speed Test</u></a> -->
+                
+            </ul>
+            <ul>
+                 <a> <u><a href="https://www.netflix.com/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount">Account</a></u></a>
+                <a> <u><a href="https://devices.netflix.com/en/">Ways To Watch</a></u></a>
+                <a> <u><a href="https://help.netflix.com/legal/corpinfo">Coporate Interface</a></u></a>
+                <a> <u><a href="https://www.netflix.com/in/browse/genre/839338">Only On Netflix</a></u></a>
+                <!-- <a> <u>Speed Test</u></a> -->
+                
+            </ul>
+            <ul>
+                 <a> <u><a href="https://media.netflix.com/en/">Media Centre</a></u></a>
+                <a> <u><a href="https://help.netflix.com/legal/termsofuse">Terms Of Use</a></u></a>
+                <a> <u><a href="https://help.netflix.com/en/contactus">Contact Us</a> </u></a>
+                <!-- <a> <u>Only On Netflix</u></a> -->
+                <!-- <a> <u>Speed Test</u></a> -->
+
+
+                
+            </ul>
+            <!-- <h3>Netflix India</h3> -->
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
